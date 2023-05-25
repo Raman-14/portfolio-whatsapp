@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;  /*you can use px, %, auto etc. here*/
+    grid-template-columns: 430px auto;
+    grid-template-areas: "left-item right-top" "left-item right-bottom";
+
+    width: 100vw;
+    height: 100vh;
+    background-color:#202020;
+  }
+  
+  .nav-component {
+    grid-area: left-item;
+    
+    /* background-color: blue; */
+  }
+  
+  .content {
+    grid-area: right-top;
+    
+    /* background-color: red; */
+  }
+  
+  .footer-component {
+    grid-area: right-bottom;
+    align-self:flex-end;
+    
+    /* background-color: green; */
+  }

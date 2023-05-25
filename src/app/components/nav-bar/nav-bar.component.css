@@ -1,0 +1,107 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+width: 428px;
+height: 768px;
+left: 0px;
+top: 64px;
+
+background: #272727;
+border: 15px solid #202020;
+}
+button{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+border:none;
+background-color: #272727;
+color:#88959E;
+}
+#box-1{
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 121px;
+    top: 194px;
+}
+#box-2{
+    position: absolute;
+    width: 103px;
+    height: 44px;
+    left: 121px;
+    top: 277px;
+}
+#box-3{
+    position: absolute;
+    width: 87px;
+    height: 44px;
+    left: 121px;
+    top: 360px;
+}
+#box-4{
+    position: absolute;
+    width: 136px;
+    height: 44px;
+    left: 121px;
+    top: 443px;
+}
+.chats{
+    position: absolute;
+    width: 105px;
+    height: 44px;
+    left: 16px;
+    top: 76px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    
+    
+    color: #FFFFFF;
+}
+ */
+
+ .container{
+    margin-top: 64px;
+    padding:0;
+    width:400px;
+    height:630px;
+    background: #272727;
+    border: 15px solid #202020;
+
+    display:grid;
+    grid-template-columns:428px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+ }
+ button{
+    background-color: #272727;
+    border:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #88959E;
+ }
+ .box{
+    justify-self: center;
+    align-self: end;
+ }
+
+ p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #FFFFFF;
+ }

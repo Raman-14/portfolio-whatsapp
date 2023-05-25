@@ -1,0 +1,17 @@
+.msg-box{
+    width: 990px;
+    height: 150px;
+    background: #272727;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.msg{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+color: #828E97;
+margin: 0px 400px 0px 0px;
+}
