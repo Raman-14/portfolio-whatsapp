@@ -4,7 +4,7 @@
         <p class="name">Raman</p>
     </div>
 </div>
-<div class="body">
+<div class="body" #chatContainer>
     <div class="chat-box" id="body-row-1" >
         <p class="chat">Hi! I am Raman kumar</p>
     </div>
@@ -12,7 +12,12 @@
         <p class="chat">Full Stack Developer</p>
     </div>
     <div class="chat-box" id="body-row-3">
-        <p class="chat">Download Resume</p>
+        <p class="chat">
+            <a id="resume-link" (click)="handleClick()" href="https://drive.google.com/file/d/1rSHQ8yYE1ig9_ofbhyJCLxX8iIKAUEOK/view?usp=sharing" download target="_blank">Download Resume</a>
+        </p>
+    </div>
+    <div class="chat-box {{message}}" id="body-row-4" #scrollToElement>
+        <p class="chat">you really want to hire me! thank you</p>
     </div>
 </div>
 </div>

@@ -26,9 +26,10 @@
 
 /* chat box */
 .body{
+    overflow-y: scroll;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 133px 133px 133px 133px;
     height:400px;
 }
 
@@ -64,3 +65,20 @@
     color: #FFFFFF;
 }
 
+#resume-link{
+    text-decoration: none;
+    color: inherit;
+}
+#body-row-4{
+    align-self:center;
+    grid-row-start:4;
+    grid-column-start:2;
+    align-items: center;
+}
+
+.hide-msg{
+    display:none;
+}
+.show-msg{
+    display:flex;
+}
