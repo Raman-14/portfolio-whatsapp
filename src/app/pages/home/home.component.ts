@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,17 +6,21 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  @ViewChild('scrollToElement', { static: false })
-  scrollToElement!: ElementRef;
+  constructor(private renderer: Renderer2) {}
+  
 
   message = 'hide-msg';
 
   handleClick(){
     this.message = 'show-msg';
-   this.scrollElementIntoView(); 
+    setTimeout(() => {
+      this.scrollElementIntoView();
+    }, 0);
   }
   private scrollElementIntoView() {
-    const element = this.scrollToElement.nativeElement;
-    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const element = document.getElementById('body-row-4'); // Replace with the actual ID of the element you want to scroll to
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 }
