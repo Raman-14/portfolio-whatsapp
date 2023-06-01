@@ -1,0 +1,47 @@
+.contact-container{
+    display: grid;
+    grid-template-rows:100px 400px 69px;
+    /* grid-gap:2rem; */
+}
+#contact-box-1{
+    align-self: flex-end;
+    justify-self: center;
+}
+#contact-box-2{
+    align-self: center;
+    justify-self: center;
+}
+#contact-box-3{
+    align-self: flex-end;
+    justify-self: center;
+}
+.contact-heading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 32px;
+color: #3AD574;
+}
+
+.contact-paragraph{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 53px;
+text-align: center;
+color: #88959E;
+}
+
+.btn{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 32px;
+color: #000000;
+width: 305px;
+height: 69px;
+background: #56C85E;
+}

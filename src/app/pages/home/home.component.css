@@ -1,27 +1,27 @@
 .main{
-    margin-top:70px;
+    margin-top:15px;
 }
 
 .header{
-    width: 990px;
-    height: 100px;
+    width: 1005px;
+    height: 59px;
     background: #272727;
     display:grid;
-    grid-template-rows: 60px auto;
-    grid-template-columns: 200px auto;
+    /* grid-template-rows: 60px auto; */
+    grid-template-columns: 115px auto;
 }
 .name{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 20px;
+    /* line-height: 44px; */
     color: #FFFFFF;
 }
 
 .row-1{
     justify-self: right;
-    align-self: flex-end;
+    align-self: center;
 }
 
 /* chat box */
@@ -30,16 +30,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 133px 133px 133px 133px;
-    height:400px;
+    height:550px;
 }
 
 .chat-box{
-    width:400px;
-    height:77px;
+    width:200px;
+    height:33px;
     background-color:#025d4c;
     display:flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 50px 0 50px;
 }
 
 #body-row-1{
@@ -49,6 +52,7 @@
     align-self: center;
     grid-column-start:2;
     grid-row-start:2;
+    justify-self:end;
 }
 #body-row-3{
     align-self: center;
@@ -60,7 +64,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 14.2px;
     line-height: 44px;
     color: #FFFFFF;
 }
@@ -70,9 +74,10 @@
     color: inherit;
 }
 #body-row-4{
-    align-self:center;
+    align-self: center;
     grid-row-start:4;
     grid-column-start:2;
+    justify-self:end;
 }
 
 .hide-msg{
@@ -81,3 +86,22 @@
 .show-msg{
     display:flex;
 }
+
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #424040; /* Background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+  

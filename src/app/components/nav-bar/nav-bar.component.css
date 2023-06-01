@@ -71,10 +71,10 @@ color:#88959E;
  */
 
  .container{
-    margin-top: 64px;
+    margin-top: 0px;
     padding:0;
-    width:400px;
-    height:630px;
+    width:432px;
+    height:693px;
     background: #272727;
     border: 15px solid #202020;
 
@@ -104,4 +104,5 @@ font-weight: 700;
 font-size: 36px;
 line-height: 44px;
 color: #FFFFFF;
- }
+margin:5px 0 0 10px; 
+}

@@ -1,17 +1,21 @@
 .msg-box{
+    margin-bottom:20px;
     width: 990px;
-    height: 150px;
+    height: 52px;
     background: #272727;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+    grid-template-columns: 200px auto;
+
 
 }
 .msg{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 36px;
+font-size: 20px;
 color: #828E97;
-margin: 0px 400px 0px 0px;
+grid-column-start:1;
+align-self:center;
+justify-self:right;
+/* margin: 0px 400px 0px 0px; */
 }

@@ -1,0 +1,33 @@
+.about-container{
+    margin: 20px 0 15px 20px;
+    width: 980px;
+    height: 600px;
+    background-color: black;
+    display:grid;
+    grid-template-rows: 100px auto;
+    grid-template-columns: 550px;
+}
+p{
+width:550px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.heading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF;
+}
+#about-box-1{
+    align-self:center;
+    justify-self: ;
+}
+#about-box-2{
+    align-self:flex-start;
+    justify-self:center;
+}

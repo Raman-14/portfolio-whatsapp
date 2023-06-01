@@ -1,0 +1,79 @@
+
+.work-grid{
+    width: 1000px;
+    height: 600px;
+    margin-top: 1rem;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:2rem;
+    overflow-y: scroll;
+    
+}
+
+#work-box-1{
+    align-self:flex-end;
+    justify-self: end;
+}
+#work-box-2{
+    align-self:center;
+}
+
+#work-box-3{
+    align-self:flex-end;
+    justify-self: end;
+}
+#work-box-4{
+    align-self:center;
+}
+#work-box-5{
+    align-self:flex-end;
+    justify-self: end;
+}
+#work-box-6{
+    align-self:center;
+}
+
+
+.img{
+    width: 378px;
+    height: 261px;
+}
+
+.img img {
+    max-width: 100%; /* Ensures the image does not exceed the container's width */
+    max-height: 100%; /* Ensures the image does not exceed the container's height */
+  }
+
+
+.details{
+    width: 339px;
+    height: 192px;
+}
+
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;  
+    color: #A0A0B3;
+}
+
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #424040; /* Background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
