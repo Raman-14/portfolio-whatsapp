@@ -1,3 +1,6 @@
+*{
+  background-color: #202020;
+}
 .container {
     display: grid;
     grid-template-rows: 1fr 1fr ;  /*you can use px, %, auto etc. here*/
@@ -7,7 +10,6 @@
 
     width: 100vw;
     height: 100vh;
-    background-color:#202020;
   }
   
   .nav-component {
@@ -28,3 +30,5 @@
     
     /* background-color: green; */
   }
+
+  
