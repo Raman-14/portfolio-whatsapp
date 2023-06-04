@@ -26,16 +26,17 @@
 
 /* chat box */
 .body{
+    margin-top:1rem;
     overflow-y: scroll;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 133px 133px 133px 133px;
+    grid-template-rows: repeat(12, 80px);
     height:550px;
 }
 
 .chat-box{
-    width:200px;
-    height:33px;
+    /* width:200px;
+    height:33px; */
     background-color:#025d4c;
     display:flex;
     align-items: center;
@@ -47,8 +48,10 @@
 
 #body-row-1{
     align-self:center;
+   
 }
 #body-row-2{
+    
     align-self: center;
     grid-column-start:2;
     grid-row-start:2;
@@ -59,13 +62,49 @@
     grid-column-start: 1;
     grid-row-start: 3;
 }
+#body-row-4{
+    align-self:center;
+    justify-self:end;
+    grid-column-start:2;
+    grid-row-start:4;
+}
+#body-row-5{
+    grid-column-start:1;
+    grid-row-start:5;
+}
+#body-row-6{
+    align-self:center;
+    justify-self:end;
+    grid-column-start:2;
+    grid-row-start:6;
+}
+#body-row-7{
+    grid-column-start:1;
+    grid-row-start:7;
+}
+#body-row-8{
+    align-self:center;
+    justify-self:end;
+    grid-column-start:2;
+    grid-row-start:8;
+}
+#body-row-9{
+    grid-column-start:1;
+    grid-row-start:9;
+}
+#body-row-10{
+    align-self:center;
+    justify-self:end;
+    grid-column-start:2;
+    grid-row-start:10;
+}
 
 .chat{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 14.2px;
-    line-height: 44px;
+    font-size: 17.2px;
+    line-height: 20px;
     color: #FFFFFF;
 }
 
@@ -73,12 +112,12 @@
     text-decoration: none;
     color: inherit;
 }
-#body-row-4{
+/* #body-row-4{
     align-self: center;
     grid-row-start:4;
     grid-column-start:2;
     justify-self:end;
-}
+} */
 
 .hide-msg{
     display:none;
@@ -104,4 +143,26 @@
   ::-webkit-scrollbar-thumb:hover {
     background-color: #555; /* Color of the scrollbar thumb on hover */
   }
-  
+
+
+  .popup{
+    width:558;
+    height:158;
+    background-color: #828E97;
+    border-radius: 8px;
+    /* transform: translate(-50%, 50%); */
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  }
+  .thnq{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 47px;
+color: #025D4C;
+margin-left: 2rem;
+  }
