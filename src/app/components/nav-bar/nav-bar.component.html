@@ -5,19 +5,40 @@
     </div>
     
     <div class="box" id="box-1" >
-        <button [routerLink]="'/home'">Home</button>
+        <button class="nav-button" [routerLink]="'/home'">Home</button>
     </div>
 
     <div  class="box" id="box-2" >
-        <button [routerLink]="'/about'">About</button>
+        <button class="nav-button" [routerLink]="'/about'">About</button>
     </div>
 
     <div class="box" id="box-3">
-        <button  [routerLink]="'/work'">Work</button>
+        <button class="nav-button"  [routerLink]="'/work'">Work</button>
     </div>
 
     <div class="box" id="box-4">
-        <button  [routerLink]="'/contact'">Contact</button>
+        <button class="nav-button" [routerLink]="'/contact'">Contact</button>
+    </div>
+    <!-- <div class="box" id="box-5">
+        <p class="chat" id="resume-grid">
+            <img class="arrow-img" id="resume-row1" src="assets/arrow.png" alt="">
+            <a id="resume-link" 
+            href="https://drive.google.com/file/d/1rSHQ8yYE1ig9_ofbhyJCLxX8iIKAUEOK/view?usp=sharing" download target="_blank" 
+            (click)="handleClick()">Resume</a>
+        </p>
+    </div> -->
+
+    <div class="box" id="box-6">
+        <button id="resume-button" (click)="handleClick()">
+            <img class="arrow-img" id="resume-row1" src="assets/arrow.png" alt=""><p class="chats" id="resume-text">
+                Resume
+            </p>
+        </button>
+    </div>
+     <div class="popup {{message}}" id="body-row-15">
+       <p class="thnq">
+           you really want to hire me! thank you
+       </p>
     </div>
 </div>
 
