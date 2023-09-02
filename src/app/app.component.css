@@ -3,7 +3,7 @@
 }
 .container {
     display: grid;
-    grid-template-rows: 1fr 1fr ;  /*you can use px, %, auto etc. here*/
+    grid-template-rows: 1fr auto ;  /*you can use px, %, auto etc. here*/
     grid-template-columns: 447px auto;
     grid-template-areas: "left-item right-top" "left-item right-bottom";
     grid-column-gap:10px;
@@ -31,4 +31,5 @@
     /* background-color: green; */
   }
 
+  
   

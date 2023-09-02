@@ -177,3 +177,8 @@ grid-template-columns: 50px auto;
   #resume-button:hover{
     background: #022d25;
   }
+
+
+  .nav-button:active {
+    background-color: rgb(244, 247, 244);
+  }

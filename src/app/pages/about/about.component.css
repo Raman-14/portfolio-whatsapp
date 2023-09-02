@@ -2,7 +2,8 @@
     margin: 20px 0 15px 20px;
     width: 980px;
     height: 600px;
-    background-color: black;
+    /* background-color: black; */
+    background:linear-gradient(to bottom right, rgb(206, 211, 211), rgb(5, 53, 53));
     display:grid;
     grid-template-rows: 100px auto;
     grid-template-columns: 550px;
@@ -15,6 +16,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 32px;
 color: #FFFFFF;
+padding-left: 40px;
 }
 .heading{
     font-family: 'Poppins';
@@ -30,4 +32,7 @@ color: #FFFFFF;
 #about-box-2{
     align-self:flex-start;
     justify-self:center;
+}
+h1{
+    padding-left: 40px;
 }
