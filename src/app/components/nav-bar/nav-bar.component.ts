@@ -10,7 +10,7 @@ export class NavBarComponent {
   message = 'hide-msg';
 
   handleClick(){
-    window.open('https://drive.google.com/file/d/1rSHQ8yYE1ig9_ofbhyJCLxX8iIKAUEOK/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1kXTQzxnFJ4ZFuaCHvc9OM0cloU6PjmNA/view?usp=drive_link', '_blank');
     this.message = 'show-msg';
     setTimeout(() => {
       this.message = 'hide-msg';
